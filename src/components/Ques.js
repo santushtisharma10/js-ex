@@ -22,7 +22,7 @@ function Ques() {
     )
     : (
         <div>
-            {gen ? <GenQues setGen={setGen} setAns={setAns} />:<Stmt ans={ans} setGen={setGen} />}
+            {gen ? <GenQues setGen={setGen} setAns={setAns} setQues={setQues} />:<Stmt ques={ques} ans={ans} setGen={setGen} />}
             
         </div>
     )

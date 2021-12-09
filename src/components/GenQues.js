@@ -55,7 +55,7 @@ function GenQues({ setGen, setQues, setAns}) {
     return(
         <div>
 
-            
+                <br /><br />
                 <input type="number" min="0" max="15" placeholder="number 1" value={val1} onChange={(e)=>setVal1(e.target.value)} />
                 <select onChange={(e) => setIdx(e.target.value)}>
                     <option value="0" >+</option>
@@ -65,9 +65,9 @@ function GenQues({ setGen, setQues, setAns}) {
                     
                 </select>
                 <input type="number" min="0" max="15" placeholder="number 2" value={val2} onChange={(e)=>setVal2(e.target.value)}/>
-
-                <button onClick={computeAns}>Generate the question</button>
-                <button onClick={()=>dispatch(setFinish(true))}>Finish</button>
+                <br/><br /><br /><br />
+                <button className="btn1" onClick={computeAns}>Generate the question</button>
+                <button className="btn1" onClick={()=>dispatch(setFinish(true))}>Finish</button>
 
         </div>
     )

@@ -26,9 +26,11 @@ function Stmt({ques, ans, setGen}) {
 
         <div>
             <form onSubmit={handleSubmit}>
+                <br/><br/>
             <h1>{ques[ques.length-1]}</h1>
+            <br/>
             <input type="number" placeholder="Enter your answer" value={inpAns} onChange={e => setAns(parseInt(e.target.value))} required/>
-            <button type="submit">Next</button>
+            <button className="btn1" type="submit">Next</button>
             </form>
             
         </div>

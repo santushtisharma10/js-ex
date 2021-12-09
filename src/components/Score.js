@@ -17,8 +17,10 @@ function Score() {
     return(
 
         <div>
+            <br/><br/>
             Your score is {score}
-            <button onClick={reGame}>Restart the game</button>
+            <br/><br/>
+            <button className="btn1" onClick={reGame}>Restart the game</button>
             
 
         </div>
