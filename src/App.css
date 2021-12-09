@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.btn {
+
+  padding: 20px;
+  border-radius: 30%;
+  font-size: 25px;
+  margin: auto;
+}
+
+.react-tabs {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  height: 400px;
+  background: white;
+  border-radius: 49px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow:  20px 20px 72px #787878,
+               -20px -20px 72px #ffffff;
+  text-align: center;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #9c9c9c;
+ 
+}
+
+.react-tabs__tab {
+  height: 60px;
+  list-style: none;
+  padding: 10px ;
+  cursor: pointer;
+  
+}
+
+.react-tabs__tab--selected {
+  background:rgb(138, 137, 137);
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  width: 100%;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.panel-content {
+  text-align: center;
+}
